@@ -34,4 +34,15 @@ The website will be able to send queries to the backend.
 The website will be able to redirect the user to the information that is connected with the respective sports center or arena that they are interested in and send back actual information from Yelp API. 
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+Path:
+1. The user should be able to input their zip code or location as a required field. 
+- Leverage HTML and CSS to create a user interface with input formdata and a button to generate.
+2. Sending Data
+- When the person clicks the button, onClick should handle a function that sends an api request to the backend server with a query “location”
+3. Server
+- There should be a Flask Python backend server that is receiving data. http://localhost:3000/api
+- The api will read the query and use the Yelp API to find local sports locations. After the data is received, it should send all locations back as a response.
+4. Receiving Data from backend to frontend
+- After there is a response (try-catch block) the frontend will map out all locations received with Name and Address.
 
+These are the next steps that we will follow to start working on our project as of right now we have not split up the work, but we will be working on it together and split it up later on. We will need to do more research on Flask Python.
