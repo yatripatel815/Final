@@ -8,7 +8,7 @@ Andrew Rosen
 
 #### Project title
 
-Sports Finder
+Sports Seeker
 
 ***
 
